@@ -58,10 +58,22 @@ $alignments:(
 
 @for $i from 1 through 20{
     .py--#{$i}{
-        padding:$i +rem 0;
+        padding:$i + rem 0;
     }
     .ml--#{$i}{
-        margin-left: $i +rem;
+        margin-left: $i + rem;
     }
     
 }
+.btn{
+    padding: 1.2rem 1.5rem;
+    border-radius: 5rem;
+    display: inline-block;
+    background: #ffa700;
+    color:#ffffff;
+        
+        &:hover{
+            background: #2b2b2b;
+        }
+}
+ 
